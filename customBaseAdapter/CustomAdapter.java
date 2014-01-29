@@ -26,8 +26,8 @@ public class MultipleItemsList extends ListActivity {
  
         private TreeSet mSeparatorsSet = new TreeSet();
  
-        public MyCustomAdapter() {
-            mInflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        public MyCustomAdapter(Context context) {
+            mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         }
  
         public void addItem(final String item) {
