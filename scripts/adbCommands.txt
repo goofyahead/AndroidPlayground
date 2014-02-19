@@ -1,0 +1,7 @@
+adb shell pm clear my.wonderful.app.package
+
+adb devices
+
+adb tcpip 5555
+
+adb connect X.X.X.X
