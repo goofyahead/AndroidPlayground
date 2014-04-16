@@ -1,0 +1,1 @@
+dialog = ProgressDialog.show(getActivity(), "", getActivity().getString(R.string.loading), true);
